@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erdi Lianto Putra - Rolex Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Erdi Lianto Putra Rolex Store</h1>
+    </header>
+    
+    <main>
+        <section id="products">
+            <div class="product" data-id="1">
+                <h2>Our Watches</h2> 
+                <h3>Rolex GTM Master II</h3>
+                <img src="images/Rolex1.jpeg" alt="GTM Master II" width="200">
+                <p>$15,746</p>
+                <button onclick="addToCart(1)">Add to Cart</button>
+            </div>
+        </section>
+        
+        <section id="cart">
+            <a href="index.html" class="btn back-btn">Kembali ke Beranda</a>
+            <h2>Your Cart</h2>
+            <ul id="cart-items"></ul>
+            <button onclick="checkout()">Checkout</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Erdi Lianto Putra. All rights reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
